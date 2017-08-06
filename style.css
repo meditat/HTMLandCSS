@@ -4,6 +4,8 @@
 	border:solid 1px red;
 }
 
+/*stuff of index_css
+
 #p01{
 	color:blue;
 }
@@ -12,6 +14,11 @@ p.error{
 	color:red;
 	font-family: verdana;
 }
+
+*/
+
+
+/*ALl About Links
 
 a:link{
 	color: red;
@@ -35,4 +42,20 @@ a:active{
 	color: yellow;
 	text-decoration: underline;
 	background-color: yellow;
+}
+
+
+
+end of link stuff*/
+
+img{
+
+	width: 50%;
+	padding: 5px;
+	margin: 5px;
+}
+
+body{
+
+	font-size: 100%;
 }
