@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding:0;
+	border:solid 1px red;
+}
+
+#p01{
+	color:blue;
+}
+
+p.error{
+	color:red;
+	font-family: verdana;
+}
+
+a:link{
+	color: red;
+	background-color: transparent;
+	text-decoration:none;
+}
+
+a:visited{
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover{
+	color: rgb(244, 104, 66);
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:active{
+	color: yellow;
+	text-decoration: underline;
+	background-color: yellow;
+}
