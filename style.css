@@ -1,9 +1,16 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+/*
 *{
 	margin:0;
 	padding:0;
-	border:solid 1px red;
+	border: 1px solid  black;
+	color: black;
 }
-
+*/
 /*stuff of index_css
 
 #p01{
@@ -47,7 +54,7 @@ a:active{
 
 
 end of link stuff*/
-
+/*
 img{
 
 	width: 50%;
@@ -59,3 +66,170 @@ body{
 
 	font-size: 100%;
 }
+*/
+/*
+table ,th,td{
+	background-color: white;
+	box-shadow: 5px;
+	border-collapse: collapse;
+}
+
+th ,td{
+	padding: 15px;
+}
+
+th{
+	text-align: left;
+}
+*/
+
+/*something about tables
+table{
+	border-spacing: 5px;
+}
+
+table#t01 tr:nth-child(even){
+	background-color: #eee;
+}
+
+table#t01 tr:nth-child(odd){
+	background-color: #fff;
+}
+
+table#t01{
+	color: white;
+	background-color: black
+}
+
+*/
+
+/*About Lists*/
+/*
+ul#nav{
+   	list-style-type: none;
+   	margin: 0;
+   	padding: 0;
+   	overflow: hidden;
+   	background-color: #333333;
+
+}
+
+ul#nav li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #111111;
+}
+*/
+
+/* About classes
+
+
+div.cities{
+	background-color: black;
+	color: white;
+	margin: 5px;
+	padding: 16px;
+}
+*/
+
+/*about iframes
+
+iframe{
+	border: 1px solid red;
+	text-align: center;
+}*/
+/* first layout
+
+div.container{
+	width: 100%;
+	border: 1px solid gray;
+}
+
+header ,footer{
+	padding: 1em;
+	color: white;
+	background-color:black;
+	clear: left;
+	text-align: center;
+
+}
+
+nav{
+	float: left;
+	max-width: 160px;
+	margin: 0;
+	padding: 1em;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li a {
+	text-orientation: none;
+}
+
+article{
+	margin-left: 170px;
+	border-left: 1px solid gray;
+	padding: 1em;
+	overflow: hidden;
+}
+*/
+/*flex layout
+
+.flex-container{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow:row wrap;
+	text-align: center;
+}
+
+.flex-container >*{
+	padding: 15px;
+	-webkit-flex:1 100%;
+}
+
+
+.article {
+    text-align: left;
+}
+
+header {background: black;color:white;}
+footer {background: #aaa;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+*/
+/*responsives websites
+.city {
+    float: left;
+    margin: 5px;
+    padding: 15px;
+    max-width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}*/
